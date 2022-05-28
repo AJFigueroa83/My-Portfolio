@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#background {
+    background-image: url(https://cdn.phenompeople.com/CareerConnectResources/prod/HONEUS/images/1920-568-coding-blog-1616781712070.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#profilePic {
+    border-radius: 200px;
+}
+
+#heroBody {
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbarMenuHeroC a {
+    color: beige;
+    font-size: 25px;
+}
+
+#title p {
+    font-family: 'Rubik Glitch', cursive;
+}
+
+#name {
+    font-size: 90px;
+    color: rgb(50, 230, 0);
+    text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+    
+}
+
+#subtitle {
+    font-size: 50px;
+    color: rgb(135, 255, 215);
+}
+
+#footer a {
+    color: rgb(251, 248, 248);
+    font-size: 40px;
+}
+
+a:hover {
+    background-color: green;
+}
