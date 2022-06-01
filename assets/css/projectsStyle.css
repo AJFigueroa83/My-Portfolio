@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#first-code, 
+#first-proyect, 
+#weather-dash, 
+#quiz-game, 
+#scheduler-app {
+    max-width: 75%;
+    height: auto;
+}
+
+.container {
+    margin: 50px;
+}
