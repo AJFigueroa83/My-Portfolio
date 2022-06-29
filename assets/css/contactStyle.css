@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#background {
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/445/975/670/web-development-minimalism-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#profilePic {
+    border-radius: 200px;
+}
+
+#heroBody {
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbarMenuHeroC a {
+    color: beige;
+    font-size: 25px;
+}
+
+.title {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 60px;
+    color: aliceblue;
+}
+
+/* #subtitle {
+    font-size: 50px;
+    color: rgb(135, 255, 215);
+} */
+
+#footer a {
+    color: rgb(251, 248, 248);
+    font-size: 40px;
+}
+
+a:hover {
+    background-color: green;
+}

@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/reset.css" />
-    <link rel="stylesheet" href="assets/css/aboutMeStyle.css">
+    <link rel="stylesheet" href="assets/css/contactStyle.css">
     <title>About Me | Alfredo J.</title>
 </head>
 <body>
@@ -40,13 +40,14 @@
     <!-- Hero content: will be in the middle -->
     <div class="hero-body" id="heroBody">
       <div class="container has-text-centered" id="title">
-        <img class="has-ratio" width='256' height='256' src="/assets/images/IMG_3905 2.jpg" alt="profile picture" id="profilePic">  
-        <p class="title" id="name">
-            <p>Hello! I have been in the hospitality industry for over 20 years. In today's everchanging world, a new path has emerged for me. I am now embarkign on a career change into the world of web development. Curretnly I am a student in the Georgia Tech Coding bootcamp and I am looking forward to this exciting career.</p>
-            <p>I am a Full-stack web developer leveraging a hospitality management background to build a more intuitive user experience on the web. Recently earned a certificate in full stack development from Georgia Tech Coding Bootcamp, with newly developed skills in JavaScript, CSS, React.js, Node.js and responsive web design. With each project, the aim is to become better at developing more skills. Have worked on a team of three to develop a search/locator app that helps locals and travelers find destination breweries. Very excited to leverage my skills as part of a fast-paced, quality-driven team to build better experiences on the web.
-            </p>
-            <p>I look forward to taking my skills and put them into practice at an fun, exciting and energetic company where I can collaborate with others and continue learning new skills in this industry. Let's code!!</p>
-        </p>
+        <!-- <img class="has-ratio" width='256' height='256' src="/assets/images/IMG_3905 2.jpg" alt="profile picture" id="profilePic">   -->
+        <section class="columns">
+            <h1 class="title" id="contactTitle">CONTACT ME</h1>
+            <section class="column">
+                <h2 class="subtitle" id="email">Via Email: <br><br>alfredojfigueroa@gmail.com</h2>
+            </section>
+            <section class="subtitle" id="github">Via GitHub: <br><br><a href="https://github.com/AJFigueroa83">AJFigueroa83</a></section>
+        </section>
       </div>
     </div>
     <!-- Hero footer: will stick at the bottom -->
@@ -54,9 +55,9 @@
       <nav class="tabs is-boxed is-hover is-fullwidth">
         <div class="container" id="footer">
           <ul>
-            <li class="is-active"><a href="./aboutMe.html">About Me</a></li>
+            <li><a href="./aboutMe.html">About Me</a></li>
             <li><a href="./projects.html">Projects</a></li>
-            <li><a href="./">Contact</a></li>
+            <li class="is-active"><a href="./">Contact</a></li>
           </ul>
         </div>
       </nav>
