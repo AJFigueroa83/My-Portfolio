@@ -100,11 +100,20 @@ body {
     z-index: -99;
   }
   
-  .button-container .button:nth-child(1) {
-    float: left;
-  }
+.button-container .button:nth-child(1) {
+  float: left;
+}
   
-  .button-container .button:nth-child(2) {
-    float: right;
-  }
-  
+.button-container .button:nth-child(2) {
+  float: right;
+}
+
+#footer a {
+  color: bisque;
+  font-size: 30px;
+}
+
+#navbarMenuHeroC a {
+  color: beige;
+  font-size: 30px;
+}

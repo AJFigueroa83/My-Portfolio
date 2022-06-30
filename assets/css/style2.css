@@ -22,7 +22,8 @@
 
 #navbarMenuHeroC a {
     color: beige;
-    font-size: 25px;
+    font-size: 30px;
+    margin-right: 40px;
 }
 
 #title p {
@@ -43,9 +44,10 @@
 
 #footer a {
     color: rgb(251, 248, 248);
-    font-size: 40px;
+    font-size: 30px;
 }
 
 a:hover {
-    background-color: green;
+    background-color: rgb(1, 35, 1);
+    color: aliceblue;
 }
