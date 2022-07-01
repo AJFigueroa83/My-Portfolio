@@ -21,18 +21,19 @@
 }
 
 #navbarMenuHeroC a {
-    color: beige;
-    font-size: 25px;
+    color: goldenrod;
+    font-size: 30px;
 }
 
-.title {
+#contactTitle {
     font-family: 'Architects Daughter', cursive;
-    font-size: 60px;
-    color: aliceblue;
+    font-size: 65px;
+    color: whitesmoke;
+    margin-bottom: 90px;
 }
 
 #email, #github, #linkedIn {
-    color: aliceblue;
+    color: goldenrod;
     font-size: 35px;
 }
 /* #subtitle {
@@ -41,10 +42,11 @@
 } */
 
 #footer a {
-    color: rgb(251, 248, 248);
-    font-size: 40px;
+    color: goldenrod;
+    font-size: 30px;
 }
 
-a:hover {
-    background-color: green;
-}
+#footer a:hover {
+    background-color: gray;
+    color: black;
+  }

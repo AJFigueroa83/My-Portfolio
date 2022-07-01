@@ -109,11 +109,29 @@ body {
 }
 
 #footer a {
-  color: bisque;
+  color: goldenrod;
   font-size: 30px;
 }
 
 #navbarMenuHeroC a {
-  color: beige;
+  color: goldenrod;
   font-size: 30px;
 }
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+#footer a:hover {
+  background-color: gray;
+  color: black;
+}
+

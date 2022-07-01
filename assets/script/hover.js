@@ -1,8 +1,8 @@
 const hover = document.getElementById("hoverable");
 
 hover.addEventListener("mouseover", function( event ) {
-  event.target.style.background = "blue";
-  event.target.style.color = "red";
+  event.target.style.background = "gray";
+  event.target.style.color = "black";
 
 }, false);
 

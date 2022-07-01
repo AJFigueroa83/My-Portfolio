@@ -21,8 +21,8 @@
 }
 
 #navbarMenuHeroC a {
-    color: beige;
-    font-size: 25px;
+    color: goldenrod;
+    font-size: 30px;
 }
 
 #title p {
@@ -33,14 +33,15 @@
 
 #subtitle {
     font-size: 50px;
-    color: rgb(135, 255, 215);
+    color: beige;
 }
 
 #footer a {
-    color: rgb(251, 248, 248);
-    font-size: 40px;
+    color: goldenrod;
+    font-size: 30px;
 }
 
-a:hover {
-    background-color: green;
-}
+#footer a:hover {
+    background-color: gray;
+    color: black;
+  }
